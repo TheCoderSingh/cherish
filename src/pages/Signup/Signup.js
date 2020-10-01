@@ -4,7 +4,7 @@ import logo from '../../images/logo.png';
 
 const Signup = () => {
 	return (
-		<div id="signup" className="section-full-light">
+		<div id="signup" className="section-full-light section-full-right">
 			<div className="center-container">
 				<img src={logo} alt="Logo" className="logo-large" />
 				<form type="POST" action="#" className="form">
@@ -19,19 +19,22 @@ const Signup = () => {
 						placeholder="Repeat Password"
 					/>
 					<p>Birthday</p>
-					<select>
-						<option>Month</option>
-					</select>
-					<select>
-						<option>Day</option>
-					</select>
-					<select>
-						<option>Year</option>
-					</select>
-					<p>Gender</p>
-					<select>
-						<option>Female</option>
-					</select>
+					<div id="birthday">
+						<select>
+							<option>Month</option>
+						</select>
+						<select>
+							<option>Day</option>
+						</select>
+						<select>
+							<option>Year</option>
+						</select>
+					</div>
+					<div id="gender">
+						<select>
+							<option>Gender</option>
+						</select>
+					</div>
 				</form>
 				<button className="primary-button" type="submit">
 					Sign Up
