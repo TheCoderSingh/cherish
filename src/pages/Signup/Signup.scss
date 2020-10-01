@@ -1,11 +1,29 @@
 #signup {
+	img {
+		margin-bottom: 20px;
+	}
+
 	input {
 		min-width: 80%;
 	}
 
 	p {
 		text-align: left;
-		margin-left: 10%;
-		color: #000;
+		color: #fff;
+		font-size: 0.9em;
+		margin: 5px 8% 8px 8%;
+	}
+}
+
+#birthday {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#gender {
+	select {
+		width: 82%;
+		margin: 5px auto 20px auto;
 	}
 }
