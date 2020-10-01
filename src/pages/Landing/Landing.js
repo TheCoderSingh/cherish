@@ -4,7 +4,7 @@ import logo from '../../images/logo.png';
 
 const Landing = () => {
 	return (
-		<div id="landing">
+		<div id="landing" className="section-full-light">
 			<div className="center-container">
 				<img src={logo} alt="Logo" className="logo-large" />
 				<p id="landing-text">

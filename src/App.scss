@@ -9,6 +9,15 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.section-full-light {
+	height: 100vh;
+	background: url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
 .center-container {
 	// Centers horizontally and vertically
 	position: relative;

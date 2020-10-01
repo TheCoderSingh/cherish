@@ -4,7 +4,7 @@ import logo from '../../images/logo.png';
 
 const Signup = () => {
 	return (
-		<div id="signup">
+		<div id="signup" className="section-full-light">
 			<div className="center-container">
 				<img src={logo} alt="Logo" className="logo-large" />
 				<form type="POST" action="#">
