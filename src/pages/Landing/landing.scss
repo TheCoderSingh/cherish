@@ -1,12 +1,14 @@
-#landing-text {
-	font-size: 0.9em;
-}
+#landing {
+	#landing-text {
+		font-size: 0.9em;
+	}
 
-#landing-signin-text {
-	color: #000;
-	font-size: 0.9em;
-}
+	#landing-signin-text {
+		color: #000;
+		font-size: 0.9em;
 
-#landing-signin-text a {
-	color: inherit;
+		a {
+			color: inherit;
+		}
+	}
 }

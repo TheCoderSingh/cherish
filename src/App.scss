@@ -1,14 +1,16 @@
-/*-- Imports --*/
+/*------ Imports ------*/
 
 @import 'styles/variables.scss'; // Variables
 
-/*-- Global Styles --*/
+/*------ Global Styles ------*/
 
+/*-- Body -- */
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
 
+/*-- Light Background -- */
 .section-full-light {
 	height: 100vh;
 	background: url('images/background.jpg');
@@ -18,8 +20,8 @@ body {
 	color: #fff;
 }
 
+/*-- Horizontal & Vertical Center -- */
 .center-container {
-	// Centers horizontally and vertically
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
@@ -28,10 +30,12 @@ body {
 	margin-right: auto;
 }
 
+/*-- Logo -- */
 .logo-large {
 	max-width: 70%;
 }
 
+/*-- Buttons --*/
 .primary-button {
 	background: $primary-color;
 	color: #fff;
@@ -43,6 +47,27 @@ body {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/*-- Links --*/
 .link {
 	text-decoration: none;
+}
+
+/*-- Form --*/
+.form {
+	input[type='text'],
+	input[type='email'],
+	input[type='password'],
+	select {
+		border: none;
+		background: $primary-color;
+		color: #fff;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		border-radius: 4px;
+		height: 35px;
+	}
+
+	input::placeholder {
+		color: #ddd;
+	}
 }

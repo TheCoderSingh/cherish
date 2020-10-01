@@ -7,7 +7,7 @@ const Signup = () => {
 		<div id="signup" className="section-full-light">
 			<div className="center-container">
 				<img src={logo} alt="Logo" className="logo-large" />
-				<form type="POST" action="#">
+				<form type="POST" action="#" className="form">
 					<input type="text" name="fname" placeholder="First Name" />
 					<input type="text" name="lname" placeholder="Last Name" />
 					<input type="text" name="uname" placeholder="Username" />
