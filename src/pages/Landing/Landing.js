@@ -1,6 +1,6 @@
 import React from 'react';
 import './landing.scss';
-import logo from '../images/logo.png';
+import logo from '../../images/logo.png';
 
 const Landing = () => {
 	return (
