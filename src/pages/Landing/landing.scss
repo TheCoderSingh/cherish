@@ -3,6 +3,12 @@
 		font-size: 0.9em;
 	}
 
+	button {
+		margin: 5px auto;
+		width: 180px;
+		text-align: left;
+	}
+
 	#landing-signin-text {
 		color: #000;
 		font-size: 0.9em;
@@ -10,5 +16,17 @@
 		a {
 			color: inherit;
 		}
+	}
+
+	span {
+		text-align: left;
+	}
+
+	span svg {
+		border-right: 1px solid;
+		font-size: 1.3em;
+		margin-right: 10px;
+		padding-right: 5px;
+		vertical-align: bottom;
 	}
 }
