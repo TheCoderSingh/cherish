@@ -26,9 +26,28 @@ const Home = () => {
 					</div>
 				</nav>
 			</header>
-			<div id="home-text">
-				<img src={logo} className="logo-smallest" alt="Logo" /> will
-				connect you to people that are looking to do the same.
+			<div className="center-container">
+				<div id="home-text">
+					<img src={logo} className="logo-smallest" alt="Logo" /> will
+					connect you to people that are looking to do the same.
+				</div>
+				<div id="options">
+					<button className="secondary-button">
+						<span>Date</span>
+					</button>
+					<button className="primary-button">
+						<span>Study</span>
+					</button>
+					<button className="secondary-button">
+						<span>Work</span>
+					</button>
+					<button className="primary-button">
+						<span>Make Friends</span>
+					</button>
+					<button className="secondary-button">
+						<span>Make Professional Network</span>
+					</button>
+				</div>
 			</div>
 		</div>
 	);
