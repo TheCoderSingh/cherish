@@ -1,6 +1,8 @@
 import React from 'react';
 import './Login.scss';
 import logo from '../../images/logo.png';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 const Login = () => {
 	return (
@@ -14,6 +16,24 @@ const Login = () => {
 				<button className="primary-button" type="submit">
 					Login
 				</button>
+				<h4>Login with</h4>
+				<div className="signin">
+					<button className="signin-button">
+						<span>
+							<FacebookIcon />
+						</span>
+					</button>
+					<button className="signin-button">
+						<span>
+							<FacebookIcon />
+						</span>
+					</button>
+					<button className="signin-button">
+						<span>
+							<TwitterIcon />
+						</span>
+					</button>
+				</div>
 			</div>
 		</div>
 	);
