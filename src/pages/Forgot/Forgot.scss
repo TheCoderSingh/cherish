@@ -1,0 +1,15 @@
+/*------ Imports ------*/
+@import '../../styles/variables.scss'; // Variables
+
+#forgot {
+	input {
+		background: none !important;
+		border: 1px solid $primary-color;
+		padding: 0 10px;
+		width: 70%;
+	}
+
+	button {
+		margin-top: 20px;
+	}
+}
