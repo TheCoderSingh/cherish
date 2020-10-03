@@ -10,7 +10,16 @@ const Home = () => {
 	return (
 		<div id="home" className="section-full-light">
 			<header>
-				<img src={logo} alt="Logo" className="logo-small" />
+				<div className="nav-top">
+					<div className="nav-top-logo">
+						<img src={logo} alt="Logo" className="logo-small" />
+					</div>
+					<div className="nav-top-links">
+						<a href="/" className="link">
+							Logout
+						</a>
+					</div>
+				</div>
 				<nav>
 					<div className="nav-icon">
 						<HomeIcon />

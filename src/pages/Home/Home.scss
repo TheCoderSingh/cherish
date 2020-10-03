@@ -15,6 +15,12 @@
 	.center-container {
 		top: 30%;
 	}
+
+	.link {
+		color: #000;
+		padding: 10px 2px;
+		font-size: 0.8em;
+	}
 }
 
 .nav-icon:not(:last-of-type) {
@@ -38,4 +44,13 @@
 		width: 60%;
 		font-weight: bold;
 	}
+}
+
+.nav-top {
+	display: flex;
+	padding: 5px 10px;
+}
+
+.nav-top-logo {
+	text-align: left;
 }
