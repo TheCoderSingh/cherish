@@ -1,0 +1,21 @@
+#login h4 {
+	margin-bottom: 7px;
+}
+
+.signin {
+	text-align: center;
+
+	.signin-button {
+		background: none;
+		border: none;
+
+		svg {
+			font-size: 2.5em;
+		}
+	}
+
+	.signin-button:hover {
+		color: #fff;
+		cursor: pointer;
+	}
+}
