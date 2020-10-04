@@ -1,5 +1,6 @@
 import React from 'react';
 import './Landing.scss';
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -15,12 +16,14 @@ const Landing = () => {
 					professional networks or just make friends based on your
 					interests.
 				</p>
-				<button className="primary-button">
-					<span className="signup-icon">
-						<EmailRoundedIcon />
-					</span>
-					Sign Up with Email
-				</button>
+				<Link to="/signup">
+					<button className="primary-button">
+						<span className="signup-icon">
+							<EmailRoundedIcon />
+						</span>
+						Sign Up with Email
+					</button>
+				</Link>
 				<button className="primary-button">
 					<span className="signup-icon">
 						<FacebookIcon />
@@ -41,10 +44,10 @@ const Landing = () => {
 				</button>
 				<p id="landing-signin-text">
 					Already have an account?
-					<a href="/" className="link">
+					<Link to="/login" className="link">
 						{' '}
 						Login
-					</a>
+					</Link>
 				</p>
 			</div>
 		</div>
